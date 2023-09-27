@@ -1,0 +1,7 @@
+service: next
+runtime: nodejs18
+
+handlers:
+  - url: /(.*)
+    secure: always
+    script: auto
